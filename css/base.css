@@ -7,3 +7,40 @@ body {
   font-size: 16px;
   font-family: "Rubik", sans-serif;
 }
+
+:root {
+  --white-color: white;
+  --secondary-color: #65aaea;
+  --grey: #bebab3;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+
+.mt-05rem {
+  margin-top: 0.5rem;
+}
+
+.mt-1rem {
+  margin-top: 1rem;
+}
+
+.container {
+  max-width: 980px;
+  padding: 0px 1rem;
+}
+
+.btn {
+  padding: 0.5rem;
+  color: var(--white-color);
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  border-width: 0px;
+}
+
+input {
+  border: 1px solid var(--grey);
+  padding: 1rem;
+  border-radius: 12px;
+}
